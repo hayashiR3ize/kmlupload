@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Barcelona Working Area</name>
+    <Style id="poly-0288D1-1101-54-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.101</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0288D1-1101-54-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>1.6515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>36d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-1101-54-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-1101-54-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-1101-54-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Barcelona Montjuic</name>
+      <styleUrl>#poly-0288D1-1101-54-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              2.1515715,41.3747979,0
+              2.1505469,41.3748039,0
+              2.150512,41.3746952,0
+              2.1504343,41.3745624,0
+              2.1503592,41.3744436,0
+              2.1502519,41.3743329,0
+              2.1501446,41.3742444,0
+              2.1502894,41.374031,0
+              2.1503699,41.3739062,0
+              2.1503404,41.3738881,0
+              2.150453,41.3737291,0
+              2.1504959,41.3737351,0
+              2.1507347,41.3733688,0
+              2.1507668,41.3733789,0
+              2.1508098,41.3733427,0
+              2.1521616,41.3738519,0
+              2.1520865,41.3739565,0
+              2.1521482,41.3739807,0
+              2.1518987,41.374341,0
+              2.1518263,41.3743048,0
+              2.1517807,41.3743853,0
+              2.1518344,41.3744134,0
+              2.1516439,41.3746771,0
+              2.1515983,41.3746509,0
+              2.1515661,41.3747053,0
+              2.1515715,41.3747979,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
